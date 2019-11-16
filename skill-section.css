@@ -1,0 +1,72 @@
+/* Skills Bar */
+.pt-resume .skill-item {
+    padding: 0 20px;
+}
+
+.pt-resume .skill-item .progress-title {
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+.pt-resume .skill-item .progress {
+	height: 8px;
+	background-color: #0e0f10;
+	margin-bottom: 40px;
+	overflow: visible;
+}
+
+.pt-resume .skill-item .progress .progress-bar {
+    position: relative;
+    background-color: #fff;
+    -webkit-border-radius: 10px;
+    		border-radius: 10px;
+}
+
+.pt-resume .skill-item .progress .progress-bar:after {
+    content: '';
+    position: absolute;
+	display: block;
+    top: -5px;
+    right: 0px;
+    padding: 6px;
+    background-color: #0e0f10;
+/*    background-color: #25ca7f;*/
+    -webkit-border-radius: 50%;
+    		border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+
+.pt-resume .skill-item .progress .progress-value {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.pt-resume .chart {
+	width: 130px;
+	height: 130px;
+	margin: 0 auto 25px;
+	text-align: center;
+	font-size: 25px;
+	line-height: 24px;
+	padding: 40px 0 0;
+	color: #eee;
+	font-weight: 800;
+}
+
+.pt-resume .chart p {
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.pt-resume canvas {
+	position: absolute;
+	top: 3px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+			transform: translateX(-50%);
+}
