@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: "Roboto";
+}
+
+/* NAVBAR */
+
+.navbar-bg{
+
+    background-color: whitesmoke !important;
+    background-image: linear-gradient(to bottom,#fff 0,#fff 100%);
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-right{
+
+    margin-right: 35px;
+}
+
+.navbar-brand{
+
+    margin-left: 35px !important;
+}
+
+a.navbar-brand{
+
+    color: coral !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-right li a{
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* transition: 0.3s all ease; */
+}
+
+.navbar-right li a:after{
+    content: '';
+    display: block;
+    height: 5px;
+  /*  width: 100%;*/
+    background-color: coral;
+
+    position: absolute;
+    top: 5px;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+.navbar-right li a:hover:after{
+    width: 100%;
+}
+
+/* MAIN SECTION */
+.main-wrapper{
+
+    /* border: 1px solid red; */
+    height: 89vh;
+    position: relative;
+}
+.main-img{
+
+    background-image: url('images/main.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 565px;
+    /* border: 1px solid blue; */
+}
+
+.main-content{
+
+    padding-top: 150px;
+    padding-left: 120px;
+}
+
+.main-content h1{
+
+    font-weight: bold;
+    color: coral;
+    font-size: 80px;
+    letter-spacing: 2px;
+    /* border: 1px solid red; */
+}
+
+.main-content h6{
+
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #555;
+}
+
+.main-content h4{
+
+    font-weight: bolder;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #555;
+}
+
